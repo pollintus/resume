@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.container {
+    margin: auto;
+    max-width: 500px;
+    padding-top: 20px;
+   }
+
+body {
+    color: #0F141E;
+    background: #fff9fb;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight:normal;
+}
+
+.info-text p {
+    font-style: normal; 
+    font-weight: normal;
+    color: rgb(92, 92, 92);
+    margin-bottom: 10px;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.bg-pink {
+    background: #f3dae3;
+}
+
+.bg-lilac {
+    background: #edc8f8;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+ }
+
+.info-text p {
+    font-style: normal; 
+    font-weight: normal;
+    color: rgb(92, 92, 92);
+    margin-bottom: 10px;
+}
+
+.img {
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+a {
+    color:rgb(25, 7, 128);
+    font-size: 12px;
+    font-weight:normal;
+    text-decoration: none;
+}
+
+a:hover {
+color: #6f0699;
+text-decoration: underline;
+}
+
+a:visited {
+    color: grey;
+}
+
+.btn {
+    background: #fdfbfc;
+    color: #0F141E;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-family: inherit;
+    margin: auto;
+    }
+
+.btn:hover {
+    background: #6c0575;
+    color: #ffebfc;
+}
+
+.btn:active {
+    background: #d07adb;
+    color: #201020;
+}
+
+.list li {
+    color: rgb(46, 45, 51);
+    margin-bottom: 10px;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group label {
+    display: block;
+    color:rgb(46, 45, 51);
+}
+
+.form-group input,
+.form-group textarea {
+    background: transparent;
+    border: none;
+    box-sizing: border-box;
+    width: 100%;
+    color: #0F141E;
+    font-family: inherit;
+    outline: none;
+    border-bottom: 1px solid #0F141E;
+    padding: 15px 0 10px;
+}
+
+.form-row {
+    margin-bottom: 20px;
+    display: flex;
+  }
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+   }
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 650px) {
+    .body {
+        font-size: 11px;
+    }
+    
+    .form-row form-group {
+        width: 100%;
+        display: block;
+        margin-right:0;
+        margin-bottom: 20px;
+    }
+
+    .form-row {
+        display: block;
+    }
+}
